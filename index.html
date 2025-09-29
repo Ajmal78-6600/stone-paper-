@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stone-Paper-Scissors Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="h">STONE - PAPER - SCISSORS</h1>
+
+  <!-- Input for user name -->
+  <input type="text" id="username" placeholder="Enter your name">
+  <button onclick="changeName()">Submit</button>
+
+  <div id="input" class="aa">
+    <button onclick="games('rock')">🪨 Rock</button>
+    <button onclick="games('paper')">📃 Paper</button>
+    <button onclick="games('scissors')">✂️ Scissors</button>
+  </div>
+
+  <div id="you">You:</div>
+  <div id="computer">Computer:</div>
+  <div id="results">Result:</div>
+
+  <div class="hands">
+    <span class="player-hand">✊</span> vs <span class="computer-hand">✊</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
